@@ -92,3 +92,25 @@ p {
     font-weight: 200;
     transition: 1s;
 }
+/* Default styles for desktop */
+body {
+  font-size: 16px;
+}
+
+/* Styles for tablets and smaller devices */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
