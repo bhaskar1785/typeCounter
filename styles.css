@@ -1,4 +1,7 @@
- * 
+ * { margin:0;
+    padding:0;
+ }
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -9,6 +12,7 @@ body {
     background: url(https://images.pexels.com/photos/816608/pexels-photo-816608.jpeg?auto=compress&cs=tinysrgb&w=400) center center fixed;
     background-size:cover;
 }
+
 .header
 {
     position: fixed;
