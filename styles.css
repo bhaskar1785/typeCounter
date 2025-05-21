@@ -1,121 +1,115 @@
- * { margin:0;
-    padding:0;
+ * {
+   margin: 0;
+   padding: 0;
  }
 
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background: url(https://images.pexels.com/photos/816608/pexels-photo-816608.jpeg?auto=compress&cs=tinysrgb&w=400) center center fixed;
-    background-size:cover;
-}
+ body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   background: url(/html-color-codes-color-tutorials-hero.jpg) center center fixed;
+   background-size: cover;
+ }
 
-.header
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background:transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-.logo {
-    position: relative;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-transition: 1s;}
-.container {
-    background-color: #ffffff38;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.452);
-    width: 80%;
-    max-width: 600px;
-    text-align: center;
-}
+ .header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 10%;
+   background: transparent;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+ }
 
-textarea {
-    width: 95%;
-    height: 150px;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid white;
-    border-radius: 4px;
-    transition: 1s;
-    background: white;
-    font-family:Arial, Helvetica, sans-serif;
-}
+ .logo {
+   position: relative;
+   font-size: 25px;
+   color: #fff;
+   text-decoration: none;
+   font-weight: 600;
+   transition: 1s;
+ }
 
-.counter {
-    text-align: left;
-}
+ .container {
+   background-color: #ffffff98;
+   padding: 20px;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 80%;
+   max-width: 600px;
+   border: 1px solid white;
+ }
 
-p {
-    margin: 5px 0;
-}
-.footer p {
-    position: fixed;
-    top: 93%;
-    left: 0;
-    width: 100%;
-    padding: 15px 15%;
-    background:rgba(255, 255, 255, 0.575);
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-    transition: 2s;
-}
-.clear {
-    position: relative;
-    font-size: 25px;
-    color: black;
-    text-decoration: none;
-    font-weight: 200;   
-}
-.clear {
-    color: #ffffff;
-    text-decoration: none;
-    margin-left: 29px;
-    display: inline-block;
-    padding: 2px 2px;
-    background: rgb(255, 255, 255);
-    border-radius: 4px;
-    font-size: 15px;
-    color: black;
-    letter-spacing: 1px;
-    font-weight: 200;
-    transition: 1s;
-}
-/* Default styles for desktop */
-body {
-  font-size: 16px;
-}
+ textarea {
+   width: 95%;
+   height: 150px;
+   margin-bottom: 10px;
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid white;
+   border-radius: 4px;
+   transition: 1s;
+   background: white;
+   font-family: Arial, Helvetica, sans-serif;
+ }
 
-/* Styles for tablets and smaller devices */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-}
+ .counter {
+   text-align: left;
+ }
 
-/* Styles for mobile phones */
-@media (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
+ p {
+   margin: 5px 0;
+ }
+
+ .clear {
+   position: relative;
+   font-size: 25px;
+   color: black;
+   text-decoration: none;
+   font-weight: 200;
+ }
+
+ .clear {
+   color: #ffffff;
+   text-decoration: none;
+   margin-left: 29px;
+   display: inline-block;
+   padding: 2px 2px;
+   background: rgb(255, 255, 255);
+   border-radius: 4px;
+   font-size: 15px;
+   color: black;
+   letter-spacing: 1px;
+   font-weight: 200;
+   transition: 1s;
+ }
+
+ body {
+   font-size: 16px;
+ }
+
+ @media (max-width: 768px) {
+   body {
+     font-size: 14px;
+   }
+ }
+
+ @media (max-width: 480px) {
+   body {
+     font-size: 12px;
+   }
+ }
+
+ img {
+   max-width: 100%;
+   height: auto;
+ }
